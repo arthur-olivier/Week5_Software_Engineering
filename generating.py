@@ -26,7 +26,7 @@ for i in range(0,len(list)):
 
 print(dict)
 
-with open('data1.json', 'w') as mon_fichier:
+with open('data.json', 'w') as mon_fichier:
 	json.dump(dict, mon_fichier)
 
 
